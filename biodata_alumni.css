@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background: #0a0e27;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.nav-simple {
+    padding: 20px 40px;
+}
+
+.nav-simple a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.profile-container {
+    max-width: 700px;
+    margin: 20px auto 60px;
+    padding: 0 20px;
+}
+
+.profile-title {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 26px;
+}
+
+.profile-subtitle {
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 35px;
+}
+
+.profile-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 18px;
+    padding: 30px;
+}
+
+.profile-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.profile-row:last-child {
+    border-bottom: none;
+}
+
+.label {
+    color: #aaa;
+    font-weight: 500;
+}
+
+.value {
+    font-weight: 600;
+    text-align: right;
+    max-width: 60%;
+}

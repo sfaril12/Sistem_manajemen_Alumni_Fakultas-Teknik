@@ -1,0 +1,92 @@
+body {
+    background: #0a0e27;
+    color: #fff;
+    font-family: system-ui;
+}
+
+.nav-simple {
+    padding: 20px 40px;
+}
+
+.nav-simple a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.dashboard-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.section-desc {
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 40px;
+}
+
+.kuesioner-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.question-card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    padding: 25px;
+}
+
+.question-header {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.question-number {
+    background: #00ffcc;
+    color: #0a0e27;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 120px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px;
+}
+
+.radio-option {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.radio-option input {
+    accent-color: #00ffcc;
+}
+
+.form-actions {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-submit {
+    padding: 14px 40px;
+    background: linear-gradient(135deg,#00ffcc,#00ccff);
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
