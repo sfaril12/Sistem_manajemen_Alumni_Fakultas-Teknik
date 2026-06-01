@@ -1,0 +1,157 @@
+/* ======================================================
+   1. SERVICES SECTION
+   Menghilangkan icon dan merapikan tampilan service
+   ====================================================== */
+
+/* Hilangkan icon pada service-item */
+.services .service-item i {
+  display: none !important;
+}
+
+/* Teks service rata tengah */
+.services .service-item {
+  text-align: center;
+}
+
+/* Tinggi dan padding card service */
+.service-item {
+  height: 100%;
+  padding: 30px 20px;
+}
+
+/* Paragraf service lebih nyaman dibaca */
+.service-item p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+/* ======================================================
+   2. BUTTON STYLE
+   Mengganti warna tombol Bootstrap jadi oranye template
+   ====================================================== */
+
+.btn-primary {
+  background-color: #ff511a !important;
+  border-color: #ff511a !important;
+  color: #ffffff !important;
+}
+
+/* Efek hover dan fokus tombol */
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #e64914 !important;
+  border-color: #e64914 !important;
+  color: #ffffff !important;
+}
+
+
+/* ======================================================
+   3. TEAM / TESTIMONIAL SECTION
+   Merapikan card tim/testimonial
+   ====================================================== */
+
+#team .item {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+/* Nama anggota tim */
+#team h4 {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+/* Jabatan anggota tim */
+#team span {
+  display: block;
+  font-size: 14px;
+  color: #777777;
+}
+
+/* Kutipan / deskripsi */
+#team p {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #28a745;
+}
+
+
+/* ======================================================
+   4. NAVIGATION BAR
+   Merapikan menu navbar agar sejajar dan rapi
+   ====================================================== */
+
+/* Item menu sejajar vertikal */
+.main-nav .nav {
+  align-items: center;
+}
+
+/* Jarak antar menu */
+.main-nav .nav li {
+  margin-left: 20px;
+}
+
+/* Padding dan tinggi menu */
+.main-nav .nav li a {
+  line-height: normal;
+  padding: 10px 15px;
+}
+
+/* Menu aktif */
+.main-nav .nav li a.active {
+  background-color: #4da6ff;
+  color: #ffffff !important;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+/* Menu terakhir (Contact Support) */
+.main-nav .nav li:last-child {
+  display: flex;
+  align-items: center;
+}
+
+/* Hilangkan efek garis bawaan template */
+.main-nav .nav li:last-child a::before {
+  display: none !important;
+}
+
+
+/* ======================================================
+   5. SECTION TITLE
+   Mengatur lebar teks judul section
+   ====================================================== */
+
+.section-title p {
+  max-width: 700px;
+  margin: 10px auto 40px;
+}
+
+/* Jarak aman banner dari header */
+.swiper-container {
+  padding-top: 140px;
+}
+
+/* Tengah secara vertikal & tidak terlalu ke atas */
+.slide-inner {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Rapikan teks header */
+.header-text {
+  margin-top: 40px;
+}
+
+.header-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.header-text p {
+  margin-top: 20px;
+  max-width: 650px;
+}
